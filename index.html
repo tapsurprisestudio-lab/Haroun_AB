@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haroun Abdul Aal</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PARTICLES CANVAS -->
+<canvas id="particles"></canvas>
+
+<!-- SPLASH SCREEN -->
+<div id="splash">
+  <div class="splash-content">
+    <div class="profile-circle">
+      <img src="https://i.imgur.com/WYKnbs1.jpeg" alt="Haroun">
+    </div>
+    <h1 class="glitch" data-text="HAROUN">HAROUN</h1>
+    <p class="welcome">Welcome to My Universe</p>
+    <button id="enterBtn" class="neon-btn">Enter</button>
+  </div>
+</div>
+
+<!-- MAIN SITE -->
+<div id="mainSite" class="hidden">
+
+<header>
+  <div class="logo">HAROUN</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#story">Story</a>
+    <a href="#contact">Connect</a>
+  </nav>
+</header>
+
+<section id="home" class="section hero">
+  <h1 class="hero-name">Haroun Abdul Aal</h1>
+  <p class="hero-sub">From Syria 🇸🇾 to Germany 🇩🇪 — Sharing Real Life Daily</p>
+
+  <div class="social-grid">
+    <a href="https://www.instagram.com/haron._.11?igsh=MWlxbGpueTdqcWpiNQ==" target="_blank" class="social-card">Instagram</a>
+    <a href="https://www.tiktok.com/@haron._.11?_r=1&_t=ZG-948yS8SsIFc" target="_blank" class="social-card">TikTok</a>
+    <a href="https://www.facebook.com/share/1GW7BTp1qi/?mibextid=wwXIfr" target="_blank" class="social-card">Facebook</a>
+    <a href="https://wa.me/905366720667" target="_blank" class="social-card">WhatsApp</a>
+    <a href="mailto:haronnne11@gmail.com" class="social-card">Email</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+  Born in 2000 in Syria, I carried ambition beyond borders.
+  Germany became my new chapter — not just a location,
+  but transformation.
+  I document my life authentically, believing that influence
+  starts with truth.
+  </p>
+</section>
+
+<section id="story" class="section">
+  <h2>My Journey</h2>
+  <div class="timeline">
+    <div class="line"></div>
+    <div class="event">2000 — Born in Syria</div>
+    <div class="event">Challenges — Growth</div>
+    <div class="event">Germany — New Beginning</div>
+    <div class="event">Now — Daily Inspiration</div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Connect With Me</h2>
+  <div class="social-grid">
+    <a href="https://www.instagram.com/haron._.11?igsh=MWlxbGpueTdqcWpiNQ==" target="_blank" class="social-card">Instagram</a>
+    <a href="https://wa.me/905366720667" target="_blank" class="social-card">WhatsApp</a>
+  </div>
+</section>
+
+</div>
+
+<!-- CHATBOT -->
+<div id="chatbotBtn">💬</div>
+<div id="chatbot">
+  <div class="chat-header">Haron AI</div>
+  <div id="chatMessages"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
